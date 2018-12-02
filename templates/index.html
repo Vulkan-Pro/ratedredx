@@ -1,0 +1,350 @@
+
+{% load staticfiles %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <!-- Html Page Specific -->
+    <meta charset="utf-8">
+    <title>Rated Red</title>
+    <meta name="description" content="Rated RED provides customized Event experiences where guests connect with our clients’ brands' and products in ways that are personally relevant and memorable. Our approach is focused on client’s prerequisite and the value of service.">
+    <meta name="keywords" content="Rated Red, Red, Nairobi, Kenya, ENTERTAINMENT AND TALENT AGENCY, redexperience, Private parties, event organization, VVIP Parties, Night Club Event, Talent management agency, How to Socialite, Events promotion, Event hosting, brand actvations, models, Ushers, entertainment">
+    <meta name="author" content="PRISM Africa | www.prism-africa.com">
+
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="scripts/html5shiv.js"></script>
+<![endif]-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'css/carousel.css' %}" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'css/style-dark.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}" />
+        
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.css' %}" />
+    <link rel="stylesheet" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="{% static 'images/favicon.ico' %}">
+
+    
+    
+</head>
+
+<body id="#home" data-spy="scroll" data-target=".navMenuCollapse">
+
+
+    <div id="home">
+        <!-- PRELOADER -->
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+
+        <!-- Main Header-->
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a class="navbar-brand ml-3 ml-md-4" href="index.html">
+                    <img src="{% static 'images/logo.png' %}" width="150px" height="auto" class="d-inline-block" alt="ratedredx logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="mr-0 menu cf">
+                        <li class="active"><a href="#About-us">About Us</a></li>
+                        <li><a href="events.html">Featured Events</a></li>
+                        <li>
+                            <a href="#">Our Services</a>
+                            <ul class="submenu">
+                                <li><a href="services.html#BookEvent">Book an Event</a></li>
+                                <li><a href="services.html#BookTalent">Find Talents</a></li>
+                                <li><a href="kiosk.html">Redx Merchandise</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact-us.html">Contacts</a></li>
+                    </ul>
+                    <ul class="cf menu mr-2">
+                        <li><a href="https://www.instagram.com/red.xperience/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC58t1zIl9K8oFNoiyCTH56w?view_as=subscriber"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://twitter.com/RedXperience"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Header Lower End-->
+        </header>
+        <!--End Main Header -->
+
+        <div class="main">
+            <!-- INTRO END -->
+            <div class="main-slider ">
+                <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0"></li>
+                        <li data-target="#demo" data-slide-to="1" class="active"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="{% static 'images/main-slider/1.jpg' %}" alt="Rated Red">
+                            <!-- Carousel Caption -->
+                            <div class="carousel-caption ">
+                                <h3><span>Events &amp; Talent</span></h3>
+                                <h1>VIP Events</h1>
+                                <h3 class="d-none d-sm-block">Rated Redx is An Xperience</h3>
+                            </div>
+                            <!-- Carousel Caption -->
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="{% static 'images/main-slider/2.jpg' %}" alt="Rated red">
+                            <!-- Carousel Caption -->
+                            <div class="carousel-caption ">
+                                <h3><span> Event Organization</span></h3>
+                                <h1 class="">Rated Red<span>x</span></h1>
+                                <h3 class="d-none d-sm-block">Exclusive Entertainment Agency</h3>
+                            </div>
+                            <!-- Carousel Caption -->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'images/main-slider/1.jpg' %}" alt="Rated Red">
+                            <!-- Carousel Caption -->
+                            <div class="carousel-caption ">
+                                <h3><span> Talent Management</span></h3>
+                                <h1>Talent Agency</h1>
+                                <h3 class="d-none d-sm-block">We put the xtra in extravagant</h3>
+                            </div>
+                            <!-- Carousel Caption -->
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls 
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>-->
+                </div>
+            </div>
+            <!-- INTRO END -->
+
+
+            <!-- About-us BEGIN -->
+            <section id="About-us">
+                <div class="container-fluid img-block-3">
+                    <div class="row">
+                        <div class="col col body-page-title">
+                            <div class="container body-sub-title-2 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="800ms">
+                                <div class="">
+                                    <div class="">
+                                        <h2><span>About us</span></h2>
+                                        <h1>Rated Redx</h1>
+                                        <p>Showbusiness Events &amp; Talent Management agency.<br> <a href="services.html">Learn more</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col body-page-title">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="frame-2 animation-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1s">
+                                        <img class="highlight-left wow  hidden" src="{% static 'images/light.png' %}" height="152" width="17" alt="" />
+                                        <img class="highlight-right wow" src="{% static 'images/light.png' %}" height="152" width="10" alt="" />
+                                        <img class="img-banner  screen" src="{% static 'images/screen4.jpg' %}" alt="About Rated Red" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About-us END -->
+
+
+            <!-- Services BEGIN -->
+            <section id="services">
+                <div class="container-fluid img-block-2">
+                    <div class="row">
+                        <div class="col col body-page-title">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="frame-1 animation-box">
+                                        <img class="highlight-left wow" src="{% static 'images/light.png' %}" height="220" width="10" alt="" />
+                                        <img class="highlight-right wow hidden" src="{% static 'images/light.png' %}" height="152" width="10" alt="" />
+                                        <img class="img-banner  screen" src="{% static 'images/screen7.jpg' %}" alt="Our Services" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col body-page-title">
+                            <div class="container body-sub-title wow fadeInRight" data-wow-delay="300ms" data-wow-duration="800ms">
+                                <h2><span>Events</span></h2>
+                                <h1>RedX Events</h1>
+                                <p> Get Xclusive access. RR Events, VIP Events, Lounge &amp; Limo Service </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About-us BEGIN -->
+            <section id="Agency">
+                <div class="container-fluid img-block-3">
+                    <div class="row">
+                        <div class="col col body-page-title">
+                            <div class="container body-sub-title-2 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="800ms">
+                                <div class="">
+                                    <h2><span>Agency</span></h2>
+                                    <h1>Models &amp; Talent</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col body-page-title">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="frame-2 animation-box">
+                                        <img class="highlight-left wow hidden-lg hidden-md hidden-sm" src="{% static 'images/light.png' %}" height="152" width="17" alt="" />
+                                        <img class="highlight-right wow" src="{% static 'images/light.png' %}" height="152" width="10" alt="" />
+                                        <img class="img-banner  screen" src="{% static 'images/screen6.jpg' %}" alt="Talent Agency" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About-us END -->
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-none d-sm-block">
+                            <iframe width="auto" height="250" src="https://www.youtube-nocookie.com/embed/y5r-oydF8Io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col">
+                            <a class="twitter-timeline" data-height="360" data-theme="dark" data-link-color="#FF6995" href="https://twitter.com/RedXperience?ref_src=twsrc%5Etfw">Tweets by RedXperience</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="col d-none d-sm-block">
+                            <iframe width="auto" height="250" src="https://www.youtube-nocookie.com/embed/mqKeQq5_DDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <a class="top" href="#"><i class="fa fa-arrow-up"></i></a>
+
+            <!-- FOOTER BEGIN -->
+            <footer>
+                <div class="footer-top">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-3 d-none d-sm-block">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <a class="footer-logo" href="index.html"></a>
+                                        <div class="container-fluid footer-bio">
+                                            <p>&copy; 2018 Rated Redx All rights reserved<a href="http://www.prism-afrika.com">&nbsp;</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col ">
+                                <div class="site-map">
+                                    <h5>Sitemap</h5>
+                                    <ul>
+                                        <li><a href="index.html#About-us">About Us</a></li>
+                                        <li><a href="events.html">Featured Events</a></li>
+                                        <li><a href="services.html">Our Services</a></li>
+                                        <li><a href="contact-us.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col d-none d-sm-block">
+                                <div class="site-map">
+                                    <h5>Quick Links</h5>
+                                    <ul>
+                                        <li><a href="sign-up.html">Talent Management</a></li>
+                                        <li><a href="sign-up.html">Get Access</a></li>
+                                        <li><a href="sign-up.html">Redx Merchandise</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col address site-map d-none d-sm-block">
+                                <h5>Contact</h5>
+                                <address>
+                                    RATED REDXperience <br>
+                                    Nairobi, Kenya<br>
+                                    <span><i class="fa fa-phone"></i> +(254) 715 463 132<br></span>
+                                    <span><i class="fa fa-envelope"></i> <a href="mailto:ratedred@gmail.com">ratedredx@gmail.com</a><br></span>
+                                </address>
+                            </div>
+                            <div class="col">
+                                <div class="site-map newsletter">
+                                    <h5>Newsletter</h5>
+                                    <form>
+                                        <input classs="input" type="email" placeholder="Enter Email Address">
+                                        <button class="btn btn-dark">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container-fluid justify-content-center">
+                        <div class="row">
+                            <ul class="col col-6">
+                                <li><span>&copy; 2018 RATED RED </span></li>
+                                <li class="d-none d-sm-block"><a href="index.html">Home</a></li>
+                                <li class="d-none d-sm-block"><a href="events.html">Events</a></li>
+                                <li class="d-none d-sm-block"><a href="gallery.html">Kiosk</a></li>
+                                <li class="d-none d-sm-block"><a href="contacts.html">Contacts</a></li>
+                            </ul>
+                            <ul class="col col-6 sign justify-content-end">
+                                <li><span>Powered By <a href="www.prism-africa.com"> <img class="d-inline-flex" height: 40px; src="{% static 'images/partners/prism_africa.png' %}" alt-PRISM Africa></a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- FOOTER END -->
+        </div>
+
+
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <script src="{% static 'scripts/jquery-1.8.2.min.js' %}"></script>
+        <script src="{% static 'scripts/bootstrap.min.js' %}"></script>
+        <script src="{% static 'scripts/jquery.validate.min.js' %}"></script>
+        <script src="{% static 'scripts/wow.min.js' %}"></script>
+        <script src="{% static 'scripts/jquery.magnific-popup.min.js' %}"></script>
+        <script src="{% static 'scripts/jquery.stellar.min.js' %}"></script>
+        <script src="{% static 'scripts/custom.js' %}"></script>
+
+        <!--[if lte IE 9]>
+	<script src="scripts/respond.min.js"></script>
+<![endif]-->
+    </div>
+</body>
+
+
+</html>

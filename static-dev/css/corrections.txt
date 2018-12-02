@@ -1,0 +1,11 @@
+
+
+[
+
+custom.css line 412, caurosel dropping down after animation
+.carousel-inner .carousel-item {
+    /*position: relative;*/
+    white-space: nowrap;
+}
+
+]
