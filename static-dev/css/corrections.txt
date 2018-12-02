@@ -7,12 +7,12 @@ custom.css line 412, caurosel dropping down after animation
     /*position: relative;*/
     white-space: nowrap;
 }
-
 ]
 
 
 [
-blog.css line 422, no such image, interferes with collectstatic
 
-	/*background-image: url('img/box_image_shadow.png');*/
+blog.css , no such images, interferes with collectstatic
+
+	all deleted
 ]
