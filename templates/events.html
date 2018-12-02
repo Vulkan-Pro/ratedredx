@@ -1,5 +1,6 @@
 
 {% load staticfiles %}
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -39,7 +40,37 @@
 
 
     <!-- Main Header-->
-    {% include 'includes/navbar.html' %}
+     <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a class="navbar-brand ml-3 ml-md-4" href="{% url 'index' %}">
+                    <img src="{% static 'images/logo.png' %}" width="150px" height="auto" class="d-inline-block" alt="ratedredx logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="mr-0 menu cf">
+                        <li class="{% if request.path == '/'%}active{% else %} {% endif %}"><a href="{% url 'index' %}#About-us">About Us</a></li>
+                        <li class="{% if request.path == '/events/'%}active{% else %} {% endif %}"><a href="{% url 'events' %}">Featured Events</a></li>
+                        <li class="{% if request.path == '/services/'%}active{% else %}{% endif %}">
+                            <a href="{% url 'services' %}">Our Services</a>
+                            <ul class="submenu">
+                                <li><a href="{% url 'services' %}#BookEvent">Book an Event</a></li>
+                                <li><a href="{% url 'services' %}#BookTalent">Find Talents</a></li>
+                                <li><a href="#">Redx Merchandise</a></li>
+                            </ul>
+                        </li>
+                        <li class="{% if request.path == '/contact/'%}active{% else %} {% endif %}"><a href="{% url 'contact' %}">Contacts</a></li>
+                    </ul>
+                    <ul class="cf menu mr-2">
+                        <li><a href="https://www.instagram.com/red.xperience/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC58t1zIl9K8oFNoiyCTH56w?view_as=subscriber"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://twitter.com/RedXperience"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Header Lower End-->
+        </header>
     <!--End Main Header -->
 
 
