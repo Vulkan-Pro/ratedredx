@@ -1,5 +1,7 @@
 
 {% load staticfiles %}
+
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -54,37 +56,8 @@
         </div>
 
         <!-- Main Header-->
-        <header>
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <a class="navbar-brand ml-3 ml-md-4" href="index.html">
-                    <img src="{% static 'images/logo.png' %}" width="150px" height="auto" class="d-inline-block" alt="ratedredx logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="mr-0 menu cf">
-                        <li class="active"><a href="#About-us">About Us</a></li>
-                        <li><a href="events.html">Featured Events</a></li>
-                        <li>
-                            <a href="#">Our Services</a>
-                            <ul class="submenu">
-                                <li><a href="services.html#BookEvent">Book an Event</a></li>
-                                <li><a href="services.html#BookTalent">Find Talents</a></li>
-                                <li><a href="kiosk.html">Redx Merchandise</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact-us.html">Contacts</a></li>
-                    </ul>
-                    <ul class="cf menu mr-2">
-                        <li><a href="https://www.instagram.com/red.xperience/"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC58t1zIl9K8oFNoiyCTH56w?view_as=subscriber"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="https://twitter.com/RedXperience"><i class="fa fa-twitter"></i></a></li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- Header Lower End-->
-        </header>
+        {% include 'includes/navbar.html' %}
+       
         <!--End Main Header -->
 
         <div class="main">
@@ -249,80 +222,67 @@
 
             <a class="top" href="#"><i class="fa fa-arrow-up"></i></a>
 
-            <!-- FOOTER BEGIN -->
-            <footer>
-                <div class="footer-top">
+       <!-- FOOTER BEGIN -->
+<footer>
+    <div class="footer-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-sm-block">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-3 d-none d-sm-block">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <a class="footer-logo" href="index.html"></a>
-                                        <div class="container-fluid footer-bio">
-                                            <p>&copy; 2018 Rated Redx All rights reserved<a href="http://www.prism-afrika.com">&nbsp;</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col ">
-                                <div class="site-map">
-                                    <h5>Sitemap</h5>
-                                    <ul>
-                                        <li><a href="index.html#About-us">About Us</a></li>
-                                        <li><a href="events.html">Featured Events</a></li>
-                                        <li><a href="services.html">Our Services</a></li>
-                                        <li><a href="contact-us.html">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col d-none d-sm-block">
-                                <div class="site-map">
-                                    <h5>Quick Links</h5>
-                                    <ul>
-                                        <li><a href="sign-up.html">Talent Management</a></li>
-                                        <li><a href="sign-up.html">Get Access</a></li>
-                                        <li><a href="sign-up.html">Redx Merchandise</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col address site-map d-none d-sm-block">
-                                <h5>Contact</h5>
-                                <address>
-                                    RATED REDXperience <br>
-                                    Nairobi, Kenya<br>
-                                    <span><i class="fa fa-phone"></i> +(254) 715 463 132<br></span>
-                                    <span><i class="fa fa-envelope"></i> <a href="mailto:ratedred@gmail.com">ratedredx@gmail.com</a><br></span>
-                                </address>
-                            </div>
-                            <div class="col">
-                                <div class="site-map newsletter">
-                                    <h5>Newsletter</h5>
-                                    <form>
-                                        <input classs="input" type="email" placeholder="Enter Email Address">
-                                        <button class="btn btn-dark">Subscribe</button>
-                                    </form>
-                                </div>
+                            <a class="footer-logo" href="index.html"></a>
+                            <div class="container-fluid footer-bio">
+                                <p>&copy; 2018 Rated Redx All rights reserved<a href="http://www.prism-afrika.com">&nbsp;</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-bottom">
-                    <div class="container-fluid justify-content-center">
-                        <div class="row">
-                            <ul class="col col-6">
-                                <li><span>&copy; 2018 RATED RED </span></li>
-                                <li class="d-none d-sm-block"><a href="index.html">Home</a></li>
-                                <li class="d-none d-sm-block"><a href="events.html">Events</a></li>
-                                <li class="d-none d-sm-block"><a href="gallery.html">Kiosk</a></li>
-                                <li class="d-none d-sm-block"><a href="contacts.html">Contacts</a></li>
-                            </ul>
-                            <ul class="col col-6 sign justify-content-end">
-                                <li><span>Powered By <a href="www.prism-africa.com"> <img class="d-inline-flex" height: 40px; src="{% static 'images/partners/prism_africa.png' %}" alt-PRISM Africa></a></span></li>
-                            </ul>
-                        </div>
+                <div class="col ">
+                    <div class="site-map">
+                        <h5>Sitemap</h5>
+                        <ul>
+                            <li><a href="index.html#About-us">About Us</a></li>
+                            <li><a href="events.html">Featured Events</a></li>
+                            <li><a href="services.html">Our Services</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
                     </div>
                 </div>
-            </footer>
+                <div class="col d-none d-sm-block">
+                    <div class="site-map">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="sign-up.html">Talent Management</a></li>
+                            <li><a href="sign-up.html">Get Access</a></li>
+                            <li><a href="sign-up.html">Redx Merchandise</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col address site-map d-none d-sm-block">
+                    <h5>Contact</h5>
+                    <address>
+                        RATED REDXperience <br>
+                        Nairobi, Kenya<br>
+                        <span><i class="fa fa-phone"></i> +(254) 715 463 132<br></span>
+                        <span><i class="fa fa-envelope"></i> <a href="mailto:ratedred@gmail.com">ratedredx@gmail.com</a><br></span>
+                    </address>
+                </div>
+                <div class="col">
+                    <div class="site-map newsletter">
+                        <h5>Newsletter</h5>
+                        <form>
+                            <input classs="input" type="email" placeholder="Enter Email Address">
+                            <button class="btn btn-dark">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% include 'includes/footerbottom.html' %}
+</footer>
+            
             <!-- FOOTER END -->
         </div>
 
