@@ -1,0 +1,512 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/**
+	REDX Entertainment Agency
+ 	Copyright (c) 2017, Kola Omondi
+
+	Author: Kola Omondi
+	Profile: prism-afrika.com/user/k_Omondi
+	
+**/
+
+/* ===== Design for a width of 948px to 1920px ===== */
+
+@media only screen and (max-width:1920px) {
+	#wrap {
+		/*background-color: #111;*/
+	}
+	section {
+		
+	}
+    .carousel-caption h1 {
+    font-size: 80px!important;   
+    }
+	.frame-1 .img-banner {
+		
+	}
+	.frame-2 .img-banner {
+		
+	}
+	.body-sub-title,
+	.body-sub-title-2 {
+		
+	}
+	.footer-top {
+		
+	}
+	.address {}
+	address {}
+	
+    /*Gallery-section-large Begin*/
+	.sidebar-gallery-large {
+	}
+	.gallery-section-large {
+		
+	}
+	.card-image-lg {
+		min-height: 570px!important;
+		max-height: 570px!important;
+	}
+	.card-image-lg img {
+		width: auto;
+		min-height: 570px!important;
+		max-height: 570px!important;
+	}
+	.sidebar-gallery-large-footer {
+		margin-top: 160px!important;
+	}
+	/*Gallery-section-large End*/
+}
+
+
+/* ===== Design for a width of 768px to 984px ===== */
+
+@media only screen and (max-width:984px) {
+	#wrap {
+		/*background-color: deeppink;*/
+	}
+	#testimonials {
+		
+	}
+	section {
+		
+	}
+	.intro-banner {}
+	.intro-banner p {}
+	.intro-block h1.slogan {
+		padding-left: 20px!important;
+		text-transform: uppercase;
+		font-size: 38px;
+	}
+	.frame-1 .img-banner {
+	}
+	.frame-2 .img-banner {
+		
+	}
+	.body-sub-title {
+	}
+	.body-sub-title-2 {
+	}
+	.footer-top {
+		
+	}
+	.address {}
+	address {}
+	.social-icons-footer ul {}
+	.social-icons-footer ul li a {
+		padding: 10px;
+	}
+	.social-icons-footer ul li i {
+		font-size: 20px;
+	}
+	/*Gallery-section-large Begin*/
+	.sidebar-gallery-large {
+	}
+	.gallery-section-large {
+		
+	}
+	.card-image-lg {
+		min-height: 570px!important;
+		max-height: 570px!important;
+	}
+	.card-image-lg img {
+		width: auto;
+		min-height: 570px!important;
+		max-height: 570px!important;
+	}
+	.sidebar-gallery-large-footer {
+		margin-top: 160px!important;
+	}
+	/*Gallery-section-large End*/
+}
+
+
+/* ===== Design for a width of 720px to 767px ===== */
+
+@media only screen and (max-width:767px) {
+	#wrap {
+		/*background-color: #1d1;*/
+	}
+	#banner-sm {
+		padding: 100px 0px!important;
+		background-image: url("../images/theater-bg.e6f173627eb9.jpg")!important;
+		background-position: center top!important;
+		background-size: cover!important;
+		border-bottom: 2px solid #e8d24b!important;
+	}
+	#testimonials {
+		
+	}
+	section {
+		
+	}
+	.frame-1 .img-banner {
+		
+	}
+	.frame-2 .img-banner {
+		
+	}
+	.body-sub-title {
+		
+	}
+	.body-sub-title-2 {
+	}
+	.footer-top {
+		
+	}
+	.address,
+	address {
+		text-align: left!important;
+		margin-left: 0!important;
+		padding-left: 0!important;
+	}
+	/*Gallery-section-large Begin*/
+	.sidebar-gallery-large {
+	}
+	.gallery-section-large {
+	}
+	.card-image-lg {
+		/*padding: 10px 0px!important;*/
+		min-height: 560px!important;
+		max-height: 560px!important;
+	}
+	.card-image-lg img {
+		width: auto;
+		min-height: 560px!important;
+		max-height: 560px!important;
+	}
+	.sidebar-gallery-large-footer {
+		margin-top: 10px!important;
+	}
+	/*Gallery-section-large End*/
+}
+
+
+/* ===== Design for a width of 540px to 719px ===== */
+
+@media only screen and (max-width:719px) {
+	#wrap {
+		/*background-color: coral;*/
+	}
+	section {
+
+	}
+
+	#banner-sm {
+		padding: 95px 0px!important;
+		background-image: url("../images/bclub/gallery_08.fb0f89c0a658.jpg")!important;
+		background-position: center !important;
+		background-size: cover!important;
+	}
+	#testimonials {
+		
+	}
+	.body-sub-title {
+	
+	}
+	.body-sub-title-2 {
+	}
+	.footer-top {
+		
+	}
+	address {
+		padding: 25px 0px;
+	}
+	.social-icons-footer {
+		text-align: center!important;
+	}
+
+
+	/*Gallery Section With Thumbnails*/
+	.gallery-section {
+		margin-top: 40px;
+		padding: 25px;
+	}
+
+	.gallery-section .page-title h4 {
+		font-weight: 600;
+		font-size: 24px;
+		padding: 20px;
+	}
+
+	.card-item {
+		padding: 20px;
+		margin-bottom: 15px;
+	}
+
+
+	.card-item h4 {
+		font-weight: 700;
+	}
+
+	.card-item h5 {
+		font-size: 26px;
+	}
+
+	.card-image {
+		overflow: hidden;
+		min-height: 250px;
+		max-height: 350px;
+	}
+
+	/*Gallery-section-large Begin*/
+	.sidebar-gallery-large {
+	}
+	.gallery-section-large {
+	}
+	.card-image-lg {
+		/*padding: 10px 0px!important;*/
+		min-height: 540px!important;
+		max-height: 540px!important;
+	}
+	.card-image-lg img {
+		width: auto;
+		min-height: 540px!important;
+		max-height: 540px!important;
+	}
+	.sidebar-gallery-large-footer {
+		margin-top: 10px!important;
+	}
+	/*Gallery-section-large End*/
+}
+
+
+/* ===== Design for a width of 480px to 539px ===== */
+
+@media only screen and (max-width:539px) {
+	#wrap {
+		/*background-color: #3b3;*/
+	}
+	section {
+	}
+	#testimonials {
+		
+	}
+	#banner-sm {
+		padding: 100px 0px!important;
+		background-image: url("../images/bclub/gallery_05.2f9477272242.jpg")!important;
+		background-position: center top!important;
+		background-size: cover!important;
+	}
+	.body-sub-title {
+		
+	}
+	.body-sub-title-2 {
+		
+	}
+	.body-sub-title p,
+	.body-sub-title-2 p {
+		
+	}
+	.frame-1 .img-banner {
+		padding-bottom: 4px;
+		padding-left: 4px;
+		margin-left: 3px;
+		background-color: #222;
+		/*min-height: 499px!important;
+		max-height: 799px!important;*/
+	}
+	.frame-2 .img-banner {
+		padding-top: 3px;
+		padding-right: 4px;
+		margin-left: 3px;
+		background-color: #222;
+		/*min-height: 499px!important;
+		max-height: 799px!important;*/
+	}
+	.footer-top {
+		
+	}
+
+	address {
+	}
+	.social-icons-footer {
+		text-align: center!important;
+	}
+	.footer-bottom {}
+
+
+	/*Gallery-section-large Begin*/
+	/********************GALLERY LARGE BEGIN********************/
+	.gallery-section-large {
+
+	}
+
+	.card-item-large {
+		
+
+	}
+
+	.card-image-lg {
+		min-height: 520px!important;
+		max-height: 590px!important;
+	}
+
+	.card-image-lg img {
+		min-height: 520px!important;
+		max-height: 590px!important;
+	}
+
+	.card-image-lg img:hover {}
+
+	.sidebar-gallery-large {
+	}
+
+
+	.sidebar-gallery-large-footer {
+		font-size: 25px;
+		position: absolute;
+		left: 26%;
+		bottom: 20px;
+	}
+
+	/*Gallery-section-large End*/
+	/*Member Registration Page*/
+	#membership-sign-up {
+		text-align: center;
+		margin-top: 30px;
+		padding: 30px 20px!important;
+	}
+
+	#membership-sign-up .account-wall {
+		padding: 30px 50px;
+	}
+	#membership-sign-up .new-account {
+		padding-top: 10px;
+	}
+	.membership-select {
+		padding: 50px 10px!important;
+	}
+
+
+	/*Member Sign In Page*/
+	#sign-in {
+		margin-top: 40px;
+		padding: 20px 30px!important;
+	}
+	#sign-in .new-account {}
+}
+
+
+/* ===== Design for a width of 320px to 479px ===== */
+
+@media only screen and (max-width:479px) {
+	#wrap {
+		/*background-color: red;*/
+	}
+    
+    
+    .carousel-caption h1 {
+    font-size: 50px!important;   
+    }
+    
+	.body-sub-title,
+	.body-sub-title-2 {
+    margin-top: 5%!important;
+    margin-bottom: 5em!important;
+    width: 100%!important;
+	}
+    
+	.body-sub-title:after {
+        margin-left: -10%!important;
+	}
+	.frame-1 .img-banner {
+	}
+	.frame-2 .img-banner {
+	
+	}
+	.footer-top {
+		
+	}
+	.footer-top h3 {
+		
+	}
+	address {
+	}
+	.social-icons-footer {
+		text-align: center!important;
+	}
+	.social-icons-footer ul li a i {
+		font-size: 18px!important;
+	}
+
+	/*Member Registration Page*/
+	#membership-sign-up {
+		text-align: center;
+		margin-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	#membership-sign-up .account-wall {
+		padding: 50px;
+	}
+	#membership-sign-up .new-account {
+		padding-top: 20px;
+	}
+	.membership-select {
+		padding: 50px 10px!important;
+	}
+
+
+
+	/*Gallery Section With Thumbnails*/
+	.gallery-section {
+		margin-top: 15px;
+		padding: 15px;
+	}
+
+	.gallery-section .page-title h4 {
+		font-weight: 600;
+		font-size: 25px;
+		padding: 10px;
+	}
+
+	.card-item {
+		padding: 10px;
+		margin-bottom: 15px;
+	}
+
+
+	.card-item h4 {
+		font-weight: 700;
+	}
+
+	.card-item h5 {
+		font-size: 26px;
+	}
+
+	.card-image {
+		overflow: hidden;
+		min-height: 250px;
+		max-height: 350px;
+	}
+
+	/*Gallery-section-large Begin*/
+	/********************GALLERY LARGE BEGIN********************/
+	.sidebar-gallery-large {
+	}
+
+
+	.sidebar-gallery-large-footer {
+		font-size: 25px;
+		position: absolute;
+		left: 19%;
+		bottom: 20px;
+	}
+
+	/*Gallery-section-large End*/
+	/*User Sign In CSS Begin*/
+	#sign-in {
+		margin-top: 40px;
+		padding: 30px 10px!important;
+	}
+	#sign-in .new-account {
+		margin-top: 20px;
+	}
+	.member-select {
+		margin-top: 40px;
+		padding: 40px 30px!important;
+	}
+}

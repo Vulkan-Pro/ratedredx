@@ -1,0 +1,21 @@
+
+
+[
+
+custom.css line 412, caurosel dropping down after animation
+.carousel-inner .carousel-item {
+    /*position: relative;*/
+    white-space: nowrap;
+}
+]
+
+
+[ interferes with collectstatic
+
+blog.css , no such images,  -	all img urls deleted 
+background: url(../images/gradient/g30.html) repeat-x top; line 1091 - revolution-slider.css
+background: url(../images/gradient/g40.html) repeat-x topl line 1104 - revolution-slider.css
+remove bootstrap.css and bootstrap.min.css - no fonts/*, , interferes with collectstatic
+remove formvalidation.css
+]
+

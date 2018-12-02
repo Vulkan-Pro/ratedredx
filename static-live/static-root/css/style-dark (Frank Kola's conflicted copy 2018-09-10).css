@@ -945,7 +945,7 @@ button {
 }
 
 .fog {
-	background: url(../images/fog.png) repeat-x bottom right;
+	
 	height: 268px;
 	width: 920px;
 	position: absolute;

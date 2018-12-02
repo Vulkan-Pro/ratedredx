@@ -10,15 +10,20 @@ custom.css line 412, caurosel dropping down after animation
 ]
 
 
-[
+[ interferes with collectstatic
 
-blog.css , no such images, interferes with collectstatic
+blog.css , no such images,  -	all img urls deleted 
 
-	all deleted
+background: url(../images/gradient/g30.html) repeat-x top; line 1091 - revolution-slider.css
+
+background: url(../images/gradient/g40.html) repeat-x topl line 1104 - revolution-slider.css
+
+remove bootstrap.css and bootstrap.min.css - no fonts/*
+
+remove formvalidation.css
+
+background: url(assets/shadow1.png) no-repeat; and such
+
+
 ]
 
-
-
-[
-	remove bootstrap.css and bootstrap.min.css - no fonts/*, , interferes with collectstatic
-]
