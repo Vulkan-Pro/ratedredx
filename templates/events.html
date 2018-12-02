@@ -40,37 +40,7 @@
 
 
     <!-- Main Header-->
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <a class="navbar-brand ml-3 ml-md-4" href="index.html">
-                <img src="{% static 'images/logo.png' %}" width="150px" height="auto" class="d-inline-block" alt="ratedredx logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="mr-0 menu cf">
-                    <li><a href="index.html#About-us">About Us</a></li>
-                    <li class="active"><a href="events.html">Featured Events</a></li>
-                    <li>
-                        <a href="#">Our Services</a>
-                        <ul class="submenu">
-                            <li><a href="services.html#BookEvent">Book an Event</a></li>
-                            <li><a href="services.html#BookTalent">Find Talents</a></li>
-                            <li><a href="kiosk.html">Redx Merchandise</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact-us.html">Contacts</a></li>
-                </ul>
-                <ul class="cf menu mr-2">
-                    <li><a href="https://www.instagram.com/red.xperience/"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UC58t1zIl9K8oFNoiyCTH56w?view_as=subscriber"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="https://twitter.com/RedXperience"><i class="fa fa-twitter"></i></a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Header Lower End-->
-    </header>
+    {% include 'includes/navbar.html' %}
     <!--End Main Header -->
 
 
@@ -82,9 +52,9 @@
             <section class="tiles-a">
                 <ul>
                     <li>
-                        <a href="#" style="background: url('images/events/Nyar1.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
+                        <a href="#" style="background: url('{% static "images/events/Nyar1.png" %}'); background-size: cover;" aria-controls="aside" aria-expanded="false">
                             <div class="details visually-hidden">
-                                <img src="images/events/Nyar1.png" alt="Starry Night">
+                                <img src="{% static 'images/events/Nyar1.png' %}" alt="Starry Night">
                                 <div class="text-copy wrapper">
                                     <h3 class="event_title">Title Here</h3>
                                     <h5 class="event_date"><i class="fa fa-calendar"></i> 1/12/2018</h5>
@@ -103,9 +73,9 @@
                     </li>
 
                     <li>
-                        <a href="#" style="background: url('images/events/Neema.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
+                        <a href="#" style="background: url('{% static "images/events/Neema.png" %}'); background-size: cover;" aria-controls="aside" aria-expanded="false">
                             <div class="details visually-hidden">
-                                <img src="images/events/Neema.png" alt="#WHATSYOURSTORY">
+                                <img src="{% static 'images/events/Neema.png' %}" alt="#WHATSYOURSTORY">
                                 <div class="text-copy wrapper">
                                     <h3 class="event_title">Title Here</h3>
                                     <h5 class="event_date"><i class="fa fa-calendar"></i> 1/12/2018</h5>
@@ -145,9 +115,9 @@
                     </li>
 
                     <li>
-                        <a href="#" style="background: url('images/events/thumb-bg5.jpg'); background-size: cover;" aria-controls="aside" aria-expanded="false">
+                        <a href="#" style="background: url('{% static "images/events/thumb-bg5.jpg" %}'); background-size: cover;" aria-controls="aside" aria-expanded="false">
                             <div class="details visually-hidden">
-                                <img src="images/events/thumb-bg5.jpg" alt="Album Launch">
+                                <img src="{% static 'images/events/thumb-bg5.jpg' %}" alt="Album Launch">
                                 <div class="text-copy wrapper">
                                     <h3 class="event_title">Title Here</h3>
                                     <h5 class="event_date"><i class="fa fa-calendar"></i> 1/12/2018</h5>
@@ -187,9 +157,9 @@
                     </li>
 
                     <li>
-                        <a href="#" style="background: url('images/events/no_limit.jpg'); background-size: cover;" aria-controls="aside" aria-expanded="false">
+                        <a href="#" style="background: url('{% static "images/events/no_limit.jpg" %}'); background-size: cover;" aria-controls="aside" aria-expanded="false">
                             <div class="details visually-hidden">
-                                <img src="images/events/no_limit.jpg" alt="Goat-like animal">
+                                <img src="{% static 'images/events/no_limit.jpg' %}" alt="Goat-like animal">
                                 <div class="text-copy wrapper">
                                     <h3 class="event_title">Title Here</h3>
                                     <h5 class="event_date"><i class="fa fa-calendar"></i> 1/12/2018</h5>
@@ -229,9 +199,9 @@
                     </li>
 
                     <li>
-                        <a href="#" style="background: url('images/events/Nyar1.png'); background-size: cover;" aria-controls="aside" aria-expanded="false">
+                        <a href="#" style="background: url('{% static "images/events/Nyar1.png" %}'); background-size: cover;" aria-controls="aside" aria-expanded="false">
                             <div class="details visually-hidden">
-                                <img src="images/events/Nyar1.png" alt="Ocean beach">
+                                <img src="{% static 'images/events/Nyar1.png' %}" alt="Ocean beach">
                                 <div class="text-copy wrapper">
                                     <h3 class="event_title">Title Here</h3>
                                     <h5 class="event_date"><i class="fa fa-calendar"></i> 1/12/2018</h5>
