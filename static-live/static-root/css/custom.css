@@ -707,7 +707,7 @@ header ul a {
 }
 
 .bg-1 {
-    /*background-image: url(../images/IMG-20170804-WA0006.jpg);*/
+    
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -721,7 +721,7 @@ header ul a {
 }
 
 .bg-2 {
-    background-image: url(../images/FX6A5933.jpg);
+    
     background-position: center top;
     background-size: contain;
     background-repeat: repeat-x;
@@ -1154,7 +1154,7 @@ label:hover:before {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    background-image: url("../images/banner1.jpg");
+    background-image: url("../images/talents/models/banner1.jpg");
 }
 
 
@@ -1213,7 +1213,7 @@ label:hover:before {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    background-image: url("../images/banner2.jpg");
+    background-image: url("../images/talents/models/banner2.jpg");
 }
 
 

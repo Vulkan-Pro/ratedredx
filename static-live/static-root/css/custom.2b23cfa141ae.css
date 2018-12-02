@@ -11,7 +11,7 @@ body {
     height: 100%vh;
     width: 100%vw;
     background-color: rgb(0, 0, 0);
-    background-image: url('../images/dark_bg.png');
+    background-image: url("../images/dark_bg.93cd5a5156a5.png");
     background-size: contain;
     background-attachment: fixed;
     background-position: top left;
@@ -418,7 +418,7 @@ header ul a {
     display: inline-block;
     padding: 2em 0;
     margin: 0 auto;
-    background-image: url('../images/dark_bg.png');
+    background-image: url("../images/dark_bg.93cd5a5156a5.png");
     background-size: contain;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, .9);
@@ -691,7 +691,7 @@ header ul a {
 }
 
 .bg-feature {
-    background-image: url(../images/screen10.jpg);
+    background-image: url("../images/screen10.e6339df62ed5.jpg");
     background-size: cover;
     /*height: 570px;*/
     height: 75vh;
@@ -700,7 +700,7 @@ header ul a {
 }
 
 .bg-feature:hover {
-    background-image: url(../images/screen8.jpg);
+    background-image: url("../images/screen8.799ea4bcd64e.jpg");
     transition: ease-in all 3s;
     filter: blur(1.5px);
     -webkit-filter: blur(1.5px);
@@ -1154,7 +1154,7 @@ label:hover:before {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    background-image: url("../images/talents/models/banner1.jpg");
+    background-image: url("../images/talents/models/banner1.53d6c83ea16a.jpg");
 }
 
 
@@ -1213,7 +1213,7 @@ label:hover:before {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    background-image: url("../images/talents/models/banner2.jpg");
+    background-image: url("../images/talents/models/banner2.a07f944102d1.jpg");
 }
 
 
@@ -1284,7 +1284,7 @@ input::-webkit-input-placeholder {}
 
 .gallery-section {
     background-color: #111;
-    background-image: url('../images/gallery-bg.jpg');
+    background-image: url("../images/gallery-bg.35210eb76291.jpg");
     background-position: center;
     background-size: contain;
 }
@@ -1615,51 +1615,51 @@ input::-webkit-input-placeholder {}
 }
 
 .wrapper .column:nth-child(1) .inner {
-    background-image: url('../images/thumb-bg/thumb-bg1.jpg');
+    background-image: url("../images/thumb-bg/thumb-bg1.86d6207cf93a.jpg");
 }
 
 .wrapper .column:nth-child(2) .inner {
-    background-image: url('../images/thumb-bg/thumb-bg14.jpg');
+    background-image: url("../images/thumb-bg/thumb-bg14.8cabde3e0dcc.jpg");
 }
 
 .wrapper .column:nth-child(3) .inner {
-    background-image: url('../images/thumb-bg/thumb-bg15.jpg');
+    background-image: url("../images/thumb-bg/thumb-bg15.b84b4f84e49d.jpg");
 }
 
 .wrapper .column:nth-child(4) .inner {
-    background-image: url('../images/bclub/gallery_01.jpg');
+    background-image: url("../images/bclub/gallery_01.818fbdd6ee6d.jpg");
 }
 
 .wrapper .column:nth-child(5) .inner {
-    background-image: url('../images/bclub/gallery_06.jpg');
+    background-image: url("../images/bclub/gallery_06.d5885d9d1559.jpg");
 }
 
 .wrapper .column:nth-child(6) .inner {
-    background-image: url('../images/thumb-bg/thumb-bg2.jpg');
+    background-image: url("../images/thumb-bg/thumb-bg2.3898d33873ec.jpg");
 }
 
 .wrapper .column:nth-child(7) .inner {
-    background-image: url('../images/thumb-bg/thumb-bg6.jpg');
+    background-image: url("../images/thumb-bg/thumb-bg6.61d84d5976fc.jpg");
 }
 
 .wrapper .column:nth-child(8) .inner {
-    background-image: url('../images/bclub/gallery_10.jpg');
+    background-image: url("../images/bclub/gallery_10.8d3a185791e2.jpg");
 }
 
 .wrapper .column:nth-child(9) .inner {
-    background-image: url('../images/bclub/gallery_05.jpg');
+    background-image: url("../images/bclub/gallery_05.2f9477272242.jpg");
 }
 
 .wrapper .column:nth-child(10) .inner {
-    background-image: url('../images/thumb-bg/thumb-bg3l.jpg');
+    background-image: url("../images/thumb-bg/thumb-bg3l.80c7a1bf267f.jpg");
 }
 
 .wrapper .column:nth-child(11) .inner {
-    background-image: url('../images/bclub/gallery_08.jpg');
+    background-image: url("../images/bclub/gallery_08.fb0f89c0a658.jpg");
 }
 
 .wrapper .column:nth-child(12) .inner {
-    background-image: url('../images/testimonials_bg.png');
+    background-image: url("../images/testimonials_bg.86558d211d6d.png");
 }
 
 .wrapper .column:nth-child(13) .inner {
@@ -2221,13 +2221,13 @@ html[xmlns] .slides {
 }
 
 .plt {
-    background-image: url('../images/screen10.jpg');
+    background-image: url("../images/screen10.e6339df62ed5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .gld {
-    background-image: url('../images/screen10.jpg');
+    background-image: url("../images/screen10.e6339df62ed5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -2350,7 +2350,7 @@ footer ul,
 }
 
 .footer-logo {
-    background-image: url('../images/footer-emblem.png');
+    background-image: url("../images/footer-emblem.c84ab4426042.png");
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;

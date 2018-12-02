@@ -5,7 +5,7 @@ body {
 }
 
 .bg-1 {
-    background-image: url('../images/gallery-bg.jpg');
+    background-image: url("../images/gallery-bg.35210eb76291.jpg");
     padding: 0;
 }
 .text-theme {
@@ -5535,7 +5535,7 @@ a.pp_arrow_previous, a.pp_arrow_next {
     padding: 0;
 }
 .pp_gallery li.default a {
-    background: url(../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+    background: url("../images/prettyPhoto/facebook/default_thumbnail.ed52db277173.gif") 0 0 no-repeat;
     display: block;
     height: 33px;
     width: 50px;

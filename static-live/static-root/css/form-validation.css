@@ -2427,7 +2427,7 @@ div.video_section {
 }
 
 .section .video-overlay.active {
-    background-image: url("img/pixel-video.png");
+    
     background-position: 0 0;
     background-repeat: repeat;
     opacity: 1
@@ -13662,7 +13662,7 @@ footer #lang_sel_list.lang_sel_list_vertical a,
 }
 
 .carousel .video .video-overlay.active {
-    background-image: url("img/pixel-video.png");
+    
     background-position: 0 0;
     background-repeat: repeat;
     opacity: 1
